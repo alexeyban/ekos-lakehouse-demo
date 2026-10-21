@@ -1,0 +1,342 @@
+[
+ {
+  "table": "public.actor",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.address",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.category",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.city",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.country",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.customer",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's loyalty_tier changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.film",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [
+   "special_features (text[])"
+  ],
+  "control_fired": true,
+  "control_detail": "one row's length_hours changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.film_actor",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.film_category",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.film_embedding",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [
+   "embedding (vector(20))"
+  ],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.inventory",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.language",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.payment",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's uuid changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.rental",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's uuid changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.staff",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's picture changed in the query",
+  "verdict": "green"
+ },
+ {
+  "table": "public.store",
+  "tiers": [
+   {
+    "tier": "V1",
+    "divergences": []
+   },
+   {
+    "tier": "V2",
+    "divergences": []
+   },
+   {
+    "tier": "V3",
+    "divergences": []
+   }
+  ],
+  "not_compared": [],
+  "control_fired": true,
+  "control_detail": "one row's last_update changed in the query",
+  "verdict": "green"
+ }
+]

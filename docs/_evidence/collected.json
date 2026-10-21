@@ -1,0 +1,12 @@
+{
+ "collected_at": "2026-10-21 15:32 UTC",
+ "head": "efeeffd",
+ "report": {
+  "status": "ok",
+  "tables": "ok",
+  "proposals": "ok",
+  "check": "ok",
+  "reconcile": "ok",
+  "manifest.json": "copied"
+ }
+}

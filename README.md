@@ -1,0 +1,78 @@
+# ekos-lakehouse-demo
+
+The project an [EKOS Lakehouse](https://github.com/alexeyban/ekos-lakehouse) demo produced: a
+PostgreSQL database ([Pagila](https://github.com/devrimgunduz/pagila), the DVD-rental sample)
+taken to Apache Iceberg tables, with the pipeline EKOS generated, its git history, the changes
+made to the source during the demo, and the documentation generated from all of it.
+
+Nothing here was written by hand except `ekos.toml`, `lakehouse-docs.toml` and the mart
+description in `marts/`. Everything else is output of `ekos-lakehouse` and `lakehouse-docs`,
+committed as it was produced.
+
+**Start with the documentation:** [`docs/index.md`](docs/index.md) — 59 pages with ER diagrams,
+column lineage, reconciliation results, health and the change log (GitHub renders the Mermaid
+diagrams).
+
+## What the run showed
+
+| | |
+|---|---|
+| Source tables planned / refused | 16 / 0 |
+| Load modes | 4 incremental (watermark declared *and* proven by a trigger), 12 full |
+| Same numbers in source, bronze and silver | 51,805 rentals · 51,061 payments · 170,962.39 payment total |
+| Reconciliation | 16 / 16 green, planted control fired on every table |
+| Health | 32 / 32 healthy (16 tables × bronze, silver) |
+| Generated dbt tests | 114 |
+| `lakehouse check --lint` | lineage 111/111, keys 16/16, not-null 78/78, relationships 19/19, drift 92/92, lint 18/18; documentation 0/111 (Pagila has no column comments) |
+
+Source changes applied during the demo, and what became of them (see `pipeline/` history):
+
+1. `customer.loyalty_tier` added (new nullable column) → committed automatically
+   (`lakehouse: apply 1 safe change(s)`).
+2. `rental.rental_date` renamed to `rented_at` → proposed on a branch with its impact
+   (`pipeline/proposals/bb155528506d.md`), approved by the merge
+   `approve: rename rental.rental_date to rented_at`; bronze renamed the column in place.
+3. A gold mart from a written description (`marts/rentals_by_store_month.md`) → proposed, **not
+   merged**: branch `ekos/gold/rentals_by_store_month/3a4d6f944f8d` in this repository.
+
+## Layout
+
+```
+ekos.toml               the EKOS project: services, source, watermarks (names the password variable, never a password)
+lakehouse-docs.toml     documentation settings: facts only; purpose, owners and SLAs are left as manual sections
+marts/                  the gold mart description, as its author wrote it
+pipeline/               the pipeline repository ekos-lakehouse generates (imported with its history)
+  lakehouse.lock.json     the deployed plan: every table's load mode with its evidence, the type mapping
+  bronze/                 Trino SQL per table (create, load, deletes, schema, maintenance)
+  dbt/                    silver models with generated tests (gold arrives by proposal)
+  dagster/                the generated Dagster project
+  proposals/              approved schema-change proposals
+docs/                   generated documentation (lakehouse-docs, RFC 0208)
+  _evidence/              the JSON it was generated from: status, tables, proposals, check, reconcile
+```
+
+## Reproduce
+
+Needs the ekos-lakehouse sandbox (`docker compose -f deploy/docker-compose.lakehouse.yml up -d`
+and `deploy/fixtures/pagila.sh` in the ekos-lakehouse repository), then from this directory:
+
+```bash
+export EKOS_LH_PG_PASSWORD=ekos-local-only      # the sandbox's local-only default
+ekos-lakehouse init
+ekos-lakehouse lakehouse doctor
+ekos-lakehouse lakehouse plan
+# regenerate the documentation (Python ≥ 3.11, see tools/lakehouse-docs in ekos-lakehouse)
+PYTHONPATH=<ekos-lakehouse>/tools/lakehouse-docs python -m lakehouse_docs all --project . --out docs --check
+```
+
+## What is not here, and one edit
+
+- `.ekos/` (the project's local ledger) and `.dagster/` (the orchestrator's instance): local
+  state, rebuilt by running the pipeline.
+- `pipeline/dbt/target/` and the dbt `manifest.json` copied from it into `docs/_evidence/`:
+  build artifacts; compiled dbt SQL can carry the masking key, so it is never committed.
+- In `docs/_evidence/tables.json`, `settings.pipeline` held the absolute path of the pipeline on
+  the machine that ran the demo; it reads `pipeline` here.
+
+Credentials in this repository are the sandbox's local-only defaults, documented as such in
+ekos-lakehouse; nothing here connects to anything outside a local sandbox.

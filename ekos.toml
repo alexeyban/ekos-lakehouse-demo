@@ -1,0 +1,22 @@
+[observe]
+paths = ["pipeline"]
+
+[extensions.lakehouse]
+trino-url           = "http://127.0.0.1:58080"
+polaris-health-url  = "http://127.0.0.1:58182/q/health"
+s3-url              = "http://127.0.0.1:58333"
+dagster-url         = "http://127.0.0.1:53000"
+source              = "127.0.0.1:55433"
+source-database     = "pagila"
+source-user         = "ekos"
+source-password-env = "EKOS_LH_PG_PASSWORD"     # the variable's name, never the password
+source-catalog      = "pagila"
+bronze-schedule     = "0 * * * *"
+gold-model          = "llama3"
+
+[extensions.lakehouse.watermarks]
+"public.rental"    = "last_update"
+"public.film"      = "last_update"
+"public.customer"  = "last_update"
+"public.inventory" = "last_update"
+"public.payment"   = "payment_date"   # declared, but no trigger proves it

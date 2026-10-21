@@ -1,0 +1,243 @@
+{
+ "generated": true,
+ "refused": [],
+ "settings": {
+  "bronze_schedule": "0 * * * *",
+  "dagster": "http://127.0.0.1:53000",
+  "pipeline": "pipeline",
+  "polaris": "http://127.0.0.1:58182/q/health",
+  "source": "127.0.0.1:55433/pagila",
+  "storage": "http://127.0.0.1:58333",
+  "target_catalog": "iceberg",
+  "trino": "http://127.0.0.1:58080"
+ },
+ "tables": [
+  {
+   "columns": 4,
+   "evidence": [
+    "about 200 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "actor_id"
+   ],
+   "table": "public.actor",
+   "watermark": null
+  },
+  {
+   "columns": 8,
+   "evidence": [
+    "about 1003 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "address_id"
+   ],
+   "table": "public.address",
+   "watermark": null
+  },
+  {
+   "columns": 3,
+   "evidence": [
+    "about 16 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "category_id"
+   ],
+   "table": "public.category",
+   "watermark": null
+  },
+  {
+   "columns": 4,
+   "evidence": [
+    "about 600 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "city_id"
+   ],
+   "table": "public.city",
+   "watermark": null
+  },
+  {
+   "columns": 3,
+   "evidence": [
+    "about 109 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "country_id"
+   ],
+   "table": "public.country",
+   "watermark": null
+  },
+  {
+   "columns": 12,
+   "evidence": [
+    "last_update declared as the watermark in settings",
+    "trigger last_updated runs last_updated() before every update and assigns NEW.last_update",
+    "last_updated() body sha256 df2a5d93f0f45c50",
+    "primary key (customer_id) allows a key-set diff for deletes"
+   ],
+   "mode": "incremental",
+   "not_exact": [],
+   "primary_key": [
+    "customer_id"
+   ],
+   "table": "public.customer",
+   "watermark": "last_update"
+  },
+  {
+   "columns": 15,
+   "evidence": [
+    "last_update declared as the watermark in settings",
+    "trigger last_updated runs last_updated() before every update and assigns NEW.last_update",
+    "last_updated() body sha256 df2a5d93f0f45c50",
+    "primary key (film_id) allows a key-set diff for deletes"
+   ],
+   "mode": "incremental",
+   "not_exact": [
+    "rental_duration (Widening)",
+    "length (Widening)",
+    "fulltext (AsText)"
+   ],
+   "primary_key": [
+    "film_id"
+   ],
+   "table": "public.film",
+   "watermark": "last_update"
+  },
+  {
+   "columns": 3,
+   "evidence": [
+    "about 5462 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "actor_id",
+    "film_id"
+   ],
+   "table": "public.film_actor",
+   "watermark": null
+  },
+  {
+   "columns": 3,
+   "evidence": [
+    "about 2367 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "film_id",
+    "category_id"
+   ],
+   "table": "public.film_category",
+   "watermark": null
+  },
+  {
+   "columns": 3,
+   "evidence": [
+    "about 1000 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "film_id"
+   ],
+   "table": "public.film_embedding",
+   "watermark": null
+  },
+  {
+   "columns": 4,
+   "evidence": [
+    "last_update declared as the watermark in settings",
+    "trigger last_updated runs last_updated() before every update and assigns NEW.last_update",
+    "last_updated() body sha256 df2a5d93f0f45c50",
+    "primary key (inventory_id) allows a key-set diff for deletes"
+   ],
+   "mode": "incremental",
+   "not_exact": [],
+   "primary_key": [
+    "inventory_id"
+   ],
+   "table": "public.inventory",
+   "watermark": "last_update"
+  },
+  {
+   "columns": 3,
+   "evidence": [
+    "about 6 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "language_id"
+   ],
+   "table": "public.language",
+   "watermark": null
+  },
+  {
+   "columns": 7,
+   "evidence": [
+    "about 51061 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "payment_date",
+    "payment_id"
+   ],
+   "table": "public.payment",
+   "watermark": null
+  },
+  {
+   "columns": 8,
+   "evidence": [
+    "last_update declared as the watermark in settings",
+    "trigger last_updated runs last_updated() before every update and assigns NEW.last_update",
+    "last_updated() body sha256 df2a5d93f0f45c50",
+    "primary key (rental_id) allows a key-set diff for deletes"
+   ],
+   "mode": "incremental",
+   "not_exact": [],
+   "primary_key": [
+    "rental_id"
+   ],
+   "table": "public.rental",
+   "watermark": "last_update"
+  },
+  {
+   "columns": 11,
+   "evidence": [
+    "about 1500 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "staff_id"
+   ],
+   "table": "public.staff",
+   "watermark": null
+  },
+  {
+   "columns": 4,
+   "evidence": [
+    "about 500 rows"
+   ],
+   "mode": "full",
+   "not_exact": [],
+   "primary_key": [
+    "store_id"
+   ],
+   "table": "public.store",
+   "watermark": null
+  }
+ ]
+}

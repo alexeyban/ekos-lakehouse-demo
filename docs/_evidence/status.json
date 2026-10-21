@@ -1,0 +1,658 @@
+[
+ {
+  "table": "public.actor",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594839,
+  "last_run": {
+   "table": "public.actor",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594839,
+   "rows": 200,
+   "duration_ms": 641,
+   "message": null
+  }
+ },
+ {
+  "table": "public.actor",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.actor",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 200,
+   "duration_ms": 520,
+   "message": null
+  }
+ },
+ {
+  "table": "public.address",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594840,
+  "last_run": {
+   "table": "public.address",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594840,
+   "rows": 1003,
+   "duration_ms": 434,
+   "message": null
+  }
+ },
+ {
+  "table": "public.address",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.address",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 1003,
+   "duration_ms": 520,
+   "message": null
+  }
+ },
+ {
+  "table": "public.category",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594839,
+  "last_run": {
+   "table": "public.category",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594839,
+   "rows": 16,
+   "duration_ms": 458,
+   "message": null
+  }
+ },
+ {
+  "table": "public.category",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.category",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 16,
+   "duration_ms": 521,
+   "message": null
+  }
+ },
+ {
+  "table": "public.city",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594839,
+  "last_run": {
+   "table": "public.city",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594839,
+   "rows": 600,
+   "duration_ms": 415,
+   "message": null
+  }
+ },
+ {
+  "table": "public.city",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.city",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 600,
+   "duration_ms": 503,
+   "message": null
+  }
+ },
+ {
+  "table": "public.country",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594850,
+  "last_run": {
+   "table": "public.country",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594850,
+   "rows": 109,
+   "duration_ms": 274,
+   "message": null
+  }
+ },
+ {
+  "table": "public.country",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.country",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 109,
+   "duration_ms": 391,
+   "message": null
+  }
+ },
+ {
+  "table": "public.customer",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594851,
+  "last_run": {
+   "table": "public.customer",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594851,
+   "rows": 86,
+   "duration_ms": 903,
+   "message": null
+  }
+ },
+ {
+  "table": "public.customer",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.customer",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 999,
+   "duration_ms": 452,
+   "message": null
+  }
+ },
+ {
+  "table": "public.film",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594852,
+  "last_run": {
+   "table": "public.film",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594852,
+   "rows": 1,
+   "duration_ms": 971,
+   "message": null
+  }
+ },
+ {
+  "table": "public.film",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.film",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 1000,
+   "duration_ms": 482,
+   "message": null
+  }
+ },
+ {
+  "table": "public.film_actor",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594851,
+  "last_run": {
+   "table": "public.film_actor",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594851,
+   "rows": 5462,
+   "duration_ms": 327,
+   "message": null
+  }
+ },
+ {
+  "table": "public.film_actor",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.film_actor",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 5462,
+   "duration_ms": 378,
+   "message": null
+  }
+ },
+ {
+  "table": "public.film_category",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594862,
+  "last_run": {
+   "table": "public.film_category",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594862,
+   "rows": 2367,
+   "duration_ms": 267,
+   "message": null
+  }
+ },
+ {
+  "table": "public.film_category",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.film_category",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 2367,
+   "duration_ms": 325,
+   "message": null
+  }
+ },
+ {
+  "table": "public.film_embedding",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594862,
+  "last_run": {
+   "table": "public.film_embedding",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594862,
+   "rows": 1000,
+   "duration_ms": 264,
+   "message": null
+  }
+ },
+ {
+  "table": "public.film_embedding",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.film_embedding",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 1000,
+   "duration_ms": 387,
+   "message": null
+  }
+ },
+ {
+  "table": "public.inventory",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594862,
+  "last_run": {
+   "table": "public.inventory",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594862,
+   "rows": 1,
+   "duration_ms": 610,
+   "message": null
+  }
+ },
+ {
+  "table": "public.inventory",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.inventory",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 4581,
+   "duration_ms": 423,
+   "message": null
+  }
+ },
+ {
+  "table": "public.language",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594862,
+  "last_run": {
+   "table": "public.language",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594862,
+   "rows": 6,
+   "duration_ms": 250,
+   "message": null
+  }
+ },
+ {
+  "table": "public.language",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.language",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 6,
+   "duration_ms": 346,
+   "message": null
+  }
+ },
+ {
+  "table": "public.payment",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594875,
+  "last_run": {
+   "table": "public.payment",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594875,
+   "rows": 51061,
+   "duration_ms": 695,
+   "message": null
+  }
+ },
+ {
+  "table": "public.payment",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.payment",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 51061,
+   "duration_ms": 482,
+   "message": null
+  }
+ },
+ {
+  "table": "public.rental",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594875,
+  "last_run": {
+   "table": "public.rental",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594875,
+   "rows": 1,
+   "duration_ms": 915,
+   "message": null
+  }
+ },
+ {
+  "table": "public.rental",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.rental",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 51805,
+   "duration_ms": 674,
+   "message": null
+  }
+ },
+ {
+  "table": "public.staff",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594874,
+  "last_run": {
+   "table": "public.staff",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594874,
+   "rows": 1500,
+   "duration_ms": 320,
+   "message": null
+  }
+ },
+ {
+  "table": "public.staff",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.staff",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 1500,
+   "duration_ms": 463,
+   "message": null
+  }
+ },
+ {
+  "table": "public.store",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago",
+   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+  ],
+  "cause": null,
+  "last_success_at": 1792594875,
+  "last_run": {
+   "table": "public.store",
+   "layer": "bronze",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594875,
+   "rows": 500,
+   "duration_ms": 337,
+   "message": null
+  }
+ },
+ {
+  "table": "public.store",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792594902,
+  "last_run": {
+   "table": "public.store",
+   "layer": "silver",
+   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "ok": true,
+   "at": 1792594902,
+   "rows": 500,
+   "duration_ms": 373,
+   "message": null
+  }
+ }
+]

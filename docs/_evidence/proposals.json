@@ -1,0 +1,11 @@
+{
+ "proposals": [
+  {
+   "at": "2026-10-21T14:18:08+02:00",
+   "branch": "ekos/gold/rentals_by_store_month/3a4d6f944f8d",
+   "kind": "gold mart",
+   "subject": "rentals_by_store_month",
+   "summary": "propose gold mart rentals_by_store_month"
+  }
+ ]
+}

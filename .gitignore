@@ -1,0 +1,8 @@
+# Local state of an EKOS project: the ledger, Dagster's instance, run-time files.
+.ekos/
+.dagster/
+pipeline/.lakehouse/
+pipeline/dbt/target/
+docs/_evidence/manifest.json
+docs/_evidence/.mermaid-cache/
+__pycache__/

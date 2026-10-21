@@ -1,0 +1,9 @@
+# Facts only; owners, purpose, consumers and SLAs are left to the manual sections.
+project = "Pagila rentals (EKOS Lakehouse sandbox)"
+source-system = "PostgreSQL 18 (Pagila)"
+source-description = "Pagila, the DVD-rental sample database for PostgreSQL, loaded into the sandbox's lh-postgres by deploy/fixtures/pagila.sh (pinned to commit 9baf49c, checked by SHA-256). Used here as the demo source; it is not a production system."
+
+[[environments]]
+name = "sandbox"
+purpose = "local docker compose stack (deploy/docker-compose.lakehouse.yml): PostgreSQL, Trino, Polaris, SeaweedFS, Dagster"
+notes = "loopback only; credentials are local-only sandbox values"

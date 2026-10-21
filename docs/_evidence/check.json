@@ -1,0 +1,58 @@
+[
+ {
+  "metric": "lineage",
+  "measured": 111,
+  "of": 111,
+  "passed": true,
+  "method": "each silver column's column_lineage in the ledger (EKOS dbt analyzer) equals its bronze column; masked columns excluded as computed",
+  "gaps": []
+ },
+ {
+  "metric": "test_coverage.keys",
+  "measured": 16,
+  "of": 16,
+  "passed": true,
+  "method": "models with a key that test it unique, from the model YAML in dbt/models/silver/",
+  "gaps": []
+ },
+ {
+  "metric": "test_coverage.not_null",
+  "measured": 78,
+  "of": 78,
+  "passed": true,
+  "method": "NOT NULL and key columns with a not_null test, from the model YAML in dbt/models/silver/",
+  "gaps": []
+ },
+ {
+  "metric": "test_coverage.relationships",
+  "measured": 19,
+  "of": 19,
+  "passed": true,
+  "method": "single-column foreign keys to planned tables with a relationships test, from the model YAML in dbt/models/silver/",
+  "gaps": []
+ },
+ {
+  "metric": "documentation",
+  "measured": 0,
+  "of": 111,
+  "passed": true,
+  "method": "models and columns with a description, from the model YAML in dbt/models/silver/",
+  "gaps": []
+ },
+ {
+  "metric": "drift",
+  "measured": 92,
+  "of": 92,
+  "passed": true,
+  "method": "each generated file against the manifest of what generate wrote (edits) and against what the deployed plan generates now (staleness)",
+  "gaps": []
+ },
+ {
+  "metric": "lint",
+  "measured": 18,
+  "of": 18,
+  "passed": true,
+  "method": "sqlfluff lint with the generated .sqlfluff (dialect trino, core rules)",
+  "gaps": []
+ }
+]
