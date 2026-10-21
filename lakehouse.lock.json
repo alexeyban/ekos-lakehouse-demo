@@ -1930,11 +1930,11 @@
           }
         },
         {
-          "column": "rental_date",
+          "column": "rented_at",
           "pg_type": "timestamp with time zone",
           "trino_type": "timestamp(6) with time zone",
           "iceberg_type": "timestamp(6) with time zone",
-          "expr": "CAST(\"rental_date\" AS timestamp(6) with time zone)",
+          "expr": "CAST(\"rented_at\" AS timestamp(6) with time zone)",
           "lossiness": "exact",
           "rule": "timestamptz",
           "rationale": "an instant, at microseconds",
@@ -2065,7 +2065,7 @@
             "has_default": true
           },
           {
-            "name": "rental_date",
+            "name": "rented_at",
             "attnum": 2,
             "not_null": true,
             "has_default": false
@@ -2107,7 +2107,13 @@
             "has_default": true
           }
         ]
-      }
+      },
+      "renames": [
+        {
+          "from": "rental_date",
+          "to": "rented_at"
+        }
+      ]
     },
     {
       "schema": "public",

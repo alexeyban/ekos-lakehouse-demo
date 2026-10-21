@@ -878,7 +878,7 @@ models:
           meta:
             ekos_rule: not-null
             evidence: the source column is NOT NULL
-  - name: rental_date
+  - name: rented_at
     data_type: timestamp(6) with time zone
     data_tests:
     - not_null:
