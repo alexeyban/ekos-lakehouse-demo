@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS "iceberg"."bronze_public"."rental"
 WITH (format = 'PARQUET')
 AS SELECT
   "rental_id",
-  CAST("rental_date" AS timestamp(6) with time zone) AS "rental_date",
+  CAST("rented_at" AS timestamp(6) with time zone) AS "rented_at",
   "inventory_id",
   "customer_id",
   CAST("return_date" AS timestamp(6) with time zone) AS "return_date",

@@ -17,7 +17,7 @@ latest as (
 
 select
     "rental_id",
-    "rental_date",
+    "rented_at",
     "inventory_id",
     "customer_id",
     "return_date",
