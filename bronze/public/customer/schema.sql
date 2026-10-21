@@ -10,3 +10,4 @@ ALTER TABLE "iceberg"."bronze_public"."customer" ADD COLUMN IF NOT EXISTS "creat
 ALTER TABLE "iceberg"."bronze_public"."customer" ADD COLUMN IF NOT EXISTS "last_update" timestamp(6) with time zone;
 ALTER TABLE "iceberg"."bronze_public"."customer" ADD COLUMN IF NOT EXISTS "active" integer;
 ALTER TABLE "iceberg"."bronze_public"."customer" ADD COLUMN IF NOT EXISTS "uuid" uuid;
+ALTER TABLE "iceberg"."bronze_public"."customer" ADD COLUMN IF NOT EXISTS "loyalty_tier" varchar;

@@ -752,6 +752,19 @@
           "compare": {
             "rule": "uuid"
           }
+        },
+        {
+          "column": "loyalty_tier",
+          "pg_type": "text",
+          "trino_type": "varchar",
+          "iceberg_type": "varchar",
+          "expr": "\"loyalty_tier\"",
+          "lossiness": "exact",
+          "rule": "varchar",
+          "rationale": "Iceberg strings have no length",
+          "compare": {
+            "rule": "text"
+          }
         }
       ],
       "facts": {
@@ -849,6 +862,12 @@
             "attnum": 11,
             "not_null": true,
             "has_default": true
+          },
+          {
+            "name": "loyalty_tier",
+            "attnum": 13,
+            "not_null": false,
+            "has_default": false
           }
         ]
       }

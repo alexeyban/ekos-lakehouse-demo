@@ -369,6 +369,8 @@ models:
           meta:
             ekos_rule: not-null
             evidence: the source column is NOT NULL
+  - name: loyalty_tier
+    data_type: varchar
 - name: public__film
   config:
     meta:

@@ -27,6 +27,7 @@ select
     "last_update",
     "active",
     "uuid",
+    "loyalty_tier",
     "_ekos_loaded_at" as "_ekos_bronze_loaded_at"
 from latest
 where "_ekos_rn" = 1 and "_ekos_op" != 'delete'

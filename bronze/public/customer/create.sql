@@ -13,6 +13,7 @@ AS SELECT
   CAST("last_update" AS timestamp(6) with time zone) AS "last_update",
   "active",
   "uuid",
+  "loyalty_tier",
   CAST(current_timestamp AS timestamp(6) with time zone) AS "_ekos_loaded_at",
   CAST('{{run_id}}' AS varchar) AS "_ekos_run_id",
   CAST('{{lsn}}' AS varchar) AS "_ekos_source_lsn",
