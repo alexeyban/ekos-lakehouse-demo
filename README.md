@@ -9,6 +9,9 @@ Nothing here was written by hand except `ekos.toml`, `lakehouse-docs.toml` and t
 description in `marts/`. Everything else is output of `ekos-lakehouse` and `lakehouse-docs`,
 committed as it was produced.
 
+**Watch the run:** [the 14-minute demo video](https://youtu.be/EGpYzn_-fv4) — every step, from an
+empty sandbox to the documentation in this repository.
+
 **Start with the documentation:** [`docs/index.md`](docs/index.md) — 59 pages with ER diagrams,
 column lineage, reconciliation results, health and the change log (GitHub renders the Mermaid
 diagrams).
