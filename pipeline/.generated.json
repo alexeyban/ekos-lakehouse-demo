@@ -65,7 +65,7 @@
   "bronze/public/store/current.sql": "1f0bc422e8e8557ad3c9a7c00dbbb8de4734e006d7a7853a81cc7493bea88a51",
   "bronze/public/store/load.sql": "5350e591b7f0b799969875a59e8b6c726bbf8c4c6477a20707eff69764755fa8",
   "bronze/public/store/maintenance.sql": "01d80a1163851fb38de1e353fa66ad49c2c5182059a1ffd0259d15f1444ab89f",
-  "dagster/definitions.py": "3787f6ef97d2f6e85f1fba3aeb2577da0f624f64a3259bfb7415b70cbe3194ee",
+  "dagster/definitions.py": "e377abdfca495d94b0d00acb6f3e9dc2f1509b905011a87b7a0b9c4d5546d7ed",
   "dbt/.gitignore": "62497ff414f811fd2b616baf5312e5c056352d84354a2f76a6c48f43380c48e7",
   "dbt/.sqlfluff": "f49a676e1c4cf512054ac2f7e4a6aca6bb94cc68f3de0693ac46d27fcf33935e",
   "dbt/dbt_project.yml": "cc4125630d2faead881d74b6663eaf6e8f5c0575510d493fb8977dcec920a881",
