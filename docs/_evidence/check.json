@@ -49,10 +49,15 @@
  },
  {
   "metric": "lint",
-  "measured": 18,
-  "of": 18,
-  "passed": true,
+  "measured": 23,
+  "of": 27,
+  "passed": false,
   "method": "sqlfluff lint with the generated .sqlfluff (dialect trino, core rules)",
-  "gaps": []
+  "gaps": [
+   "models/gold/gold__film_catalog_by_rating.sql:5: AL09 Column should not be self-aliased.",
+   "models/gold/gold__inventory_by_store_rating.sql:6: AL09 Column should not be self-aliased.",
+   "models/gold/gold__rentals_by_film_rating_month.sql:5: AL09 Column should not be self-aliased.",
+   "tests/gold/gold__film_catalog_by_rating__total_replacement_cost_reconciles.sql:1: LT05 Line is too long (121 > 120)."
+  ]
  }
 ]

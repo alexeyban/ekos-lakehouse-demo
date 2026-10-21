@@ -1,22 +1,102 @@
 [
  {
+  "table": "gold.film_catalog_by_rating",
+  "layer": "gold",
+  "state": "healthy",
+  "evidence": [
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792600413,
+  "last_run": {
+   "table": "gold.film_catalog_by_rating",
+   "layer": "gold",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
+   "ok": true,
+   "at": 1792600413,
+   "rows": 5,
+   "duration_ms": 317,
+   "message": null
+  }
+ },
+ {
+  "table": "gold.inventory_by_store_rating",
+  "layer": "gold",
+  "state": "healthy",
+  "evidence": [
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792600413,
+  "last_run": {
+   "table": "gold.inventory_by_store_rating",
+   "layer": "gold",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
+   "ok": true,
+   "at": 1792600413,
+   "rows": 10,
+   "duration_ms": 342,
+   "message": null
+  }
+ },
+ {
+  "table": "gold.rentals_by_film_rating_month",
+  "layer": "gold",
+  "state": "healthy",
+  "evidence": [
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792600413,
+  "last_run": {
+   "table": "gold.rentals_by_film_rating_month",
+   "layer": "gold",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
+   "ok": true,
+   "at": 1792600413,
+   "rows": 260,
+   "duration_ms": 605,
+   "message": null
+  }
+ },
+ {
+  "table": "gold.rentals_by_store_month",
+  "layer": "gold",
+  "state": "healthy",
+  "evidence": [
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792600413,
+  "last_run": {
+   "table": "gold.rentals_by_store_month",
+   "layer": "gold",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
+   "ok": true,
+   "at": 1792600413,
+   "rows": 104,
+   "duration_ms": 395,
+   "message": null
+  }
+ },
+ {
   "table": "public.actor",
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 3 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594839,
+  "last_success_at": 1792600347,
   "last_run": {
    "table": "public.actor",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594839,
+   "at": 1792600347,
    "rows": 200,
-   "duration_ms": 641,
+   "duration_ms": 284,
    "message": null
   }
  },
@@ -25,18 +105,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.actor",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 200,
-   "duration_ms": 520,
+   "duration_ms": 515,
    "message": null
   }
  },
@@ -45,19 +125,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 3 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594840,
+  "last_success_at": 1792600348,
   "last_run": {
    "table": "public.address",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594840,
+   "at": 1792600348,
    "rows": 1003,
-   "duration_ms": 434,
+   "duration_ms": 304,
    "message": null
   }
  },
@@ -66,18 +146,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.address",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 1003,
-   "duration_ms": 520,
+   "duration_ms": 526,
    "message": null
   }
  },
@@ -86,121 +166,121 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 3 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594839,
+  "last_success_at": 1792600349,
   "last_run": {
    "table": "public.category",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594839,
+   "at": 1792600349,
    "rows": 16,
-   "duration_ms": 458,
-   "message": null
-  }
- },
- {
-  "table": "public.category",
-  "layer": "silver",
-  "state": "healthy",
-  "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
-  ],
-  "cause": null,
-  "last_success_at": 1792594902,
-  "last_run": {
-   "table": "public.category",
-   "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
-   "ok": true,
-   "at": 1792594902,
-   "rows": 16,
-   "duration_ms": 521,
-   "message": null
-  }
- },
- {
-  "table": "public.city",
-  "layer": "bronze",
-  "state": "healthy",
-  "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
-  ],
-  "cause": null,
-  "last_success_at": 1792594839,
-  "last_run": {
-   "table": "public.city",
-   "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
-   "ok": true,
-   "at": 1792594839,
-   "rows": 600,
-   "duration_ms": 415,
-   "message": null
-  }
- },
- {
-  "table": "public.city",
-  "layer": "silver",
-  "state": "healthy",
-  "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
-  ],
-  "cause": null,
-  "last_success_at": 1792594902,
-  "last_run": {
-   "table": "public.city",
-   "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
-   "ok": true,
-   "at": 1792594902,
-   "rows": 600,
-   "duration_ms": 503,
-   "message": null
-  }
- },
- {
-  "table": "public.country",
-  "layer": "bronze",
-  "state": "healthy",
-  "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
-  ],
-  "cause": null,
-  "last_success_at": 1792594850,
-  "last_run": {
-   "table": "public.country",
-   "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
-   "ok": true,
-   "at": 1792594850,
-   "rows": 109,
    "duration_ms": 274,
    "message": null
   }
  },
  {
+  "table": "public.category",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792600413,
+  "last_run": {
+   "table": "public.category",
+   "layer": "silver",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
+   "ok": true,
+   "at": 1792600413,
+   "rows": 16,
+   "duration_ms": 509,
+   "message": null
+  }
+ },
+ {
+  "table": "public.city",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 3 min ago",
+   "reconciled green at manual-1792600489"
+  ],
+  "cause": null,
+  "last_success_at": 1792600347,
+  "last_run": {
+   "table": "public.city",
+   "layer": "bronze",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
+   "ok": true,
+   "at": 1792600347,
+   "rows": 600,
+   "duration_ms": 324,
+   "message": null
+  }
+ },
+ {
+  "table": "public.city",
+  "layer": "silver",
+  "state": "healthy",
+  "evidence": [
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
+  ],
+  "cause": null,
+  "last_success_at": 1792600413,
+  "last_run": {
+   "table": "public.city",
+   "layer": "silver",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
+   "ok": true,
+   "at": 1792600413,
+   "rows": 600,
+   "duration_ms": 521,
+   "message": null
+  }
+ },
+ {
+  "table": "public.country",
+  "layer": "bronze",
+  "state": "healthy",
+  "evidence": [
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
+  ],
+  "cause": null,
+  "last_success_at": 1792600359,
+  "last_run": {
+   "table": "public.country",
+   "layer": "bronze",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
+   "ok": true,
+   "at": 1792600359,
+   "rows": 109,
+   "duration_ms": 254,
+   "message": null
+  }
+ },
+ {
   "table": "public.country",
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.country",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 109,
-   "duration_ms": 391,
+   "duration_ms": 379,
    "message": null
   }
  },
@@ -209,19 +289,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594851,
+  "last_success_at": 1792600362,
   "last_run": {
    "table": "public.customer",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594851,
+   "at": 1792600362,
    "rows": 86,
-   "duration_ms": 903,
+   "duration_ms": 926,
    "message": null
   }
  },
@@ -230,18 +310,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.customer",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 999,
-   "duration_ms": 452,
+   "duration_ms": 419,
    "message": null
   }
  },
@@ -250,19 +330,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594852,
+  "last_success_at": 1792600360,
   "last_run": {
    "table": "public.film",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594852,
+   "at": 1792600360,
    "rows": 1,
-   "duration_ms": 971,
+   "duration_ms": 1004,
    "message": null
   }
  },
@@ -271,18 +351,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.film",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 1000,
-   "duration_ms": 482,
+   "duration_ms": 416,
    "message": null
   }
  },
@@ -291,19 +371,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594851,
+  "last_success_at": 1792600359,
   "last_run": {
    "table": "public.film_actor",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594851,
+   "at": 1792600359,
    "rows": 5462,
-   "duration_ms": 327,
+   "duration_ms": 268,
    "message": null
   }
  },
@@ -312,18 +392,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.film_actor",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 5462,
-   "duration_ms": 378,
+   "duration_ms": 321,
    "message": null
   }
  },
@@ -332,19 +412,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594862,
+  "last_success_at": 1792600371,
   "last_run": {
    "table": "public.film_category",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594862,
+   "at": 1792600371,
    "rows": 2367,
-   "duration_ms": 267,
+   "duration_ms": 243,
    "message": null
   }
  },
@@ -353,18 +433,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.film_category",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 2367,
-   "duration_ms": 325,
+   "duration_ms": 317,
    "message": null
   }
  },
@@ -373,19 +453,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594862,
+  "last_success_at": 1792600372,
   "last_run": {
    "table": "public.film_embedding",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594862,
+   "at": 1792600372,
    "rows": 1000,
-   "duration_ms": 264,
+   "duration_ms": 278,
    "message": null
   }
  },
@@ -394,18 +474,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.film_embedding",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 1000,
-   "duration_ms": 387,
+   "duration_ms": 335,
    "message": null
   }
  },
@@ -414,19 +494,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594862,
+  "last_success_at": 1792600372,
   "last_run": {
    "table": "public.inventory",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594862,
+   "at": 1792600372,
    "rows": 1,
-   "duration_ms": 610,
+   "duration_ms": 629,
    "message": null
   }
  },
@@ -435,18 +515,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.inventory",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 4581,
-   "duration_ms": 423,
+   "duration_ms": 413,
    "message": null
   }
  },
@@ -455,19 +535,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 31 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594862,
+  "last_success_at": 1792600371,
   "last_run": {
    "table": "public.language",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594862,
+   "at": 1792600371,
    "rows": 6,
-   "duration_ms": 250,
+   "duration_ms": 269,
    "message": null
   }
  },
@@ -476,16 +556,16 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.language",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 6,
    "duration_ms": 346,
    "message": null
@@ -496,19 +576,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594875,
+  "last_success_at": 1792600384,
   "last_run": {
    "table": "public.payment",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594875,
+   "at": 1792600384,
    "rows": 51061,
-   "duration_ms": 695,
+   "duration_ms": 569,
    "message": null
   }
  },
@@ -517,18 +597,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.payment",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 51061,
-   "duration_ms": 482,
+   "duration_ms": 443,
    "message": null
   }
  },
@@ -537,19 +617,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594875,
+  "last_success_at": 1792600384,
   "last_run": {
    "table": "public.rental",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594875,
+   "at": 1792600384,
    "rows": 1,
-   "duration_ms": 915,
+   "duration_ms": 864,
    "message": null
   }
  },
@@ -558,18 +638,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.rental",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 51805,
-   "duration_ms": 674,
+   "duration_ms": 623,
    "message": null
   }
  },
@@ -578,19 +658,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594874,
+  "last_success_at": 1792600383,
   "last_run": {
    "table": "public.staff",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594874,
+   "at": 1792600383,
    "rows": 1500,
-   "duration_ms": 320,
+   "duration_ms": 321,
    "message": null
   }
  },
@@ -599,18 +679,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.staff",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 1500,
-   "duration_ms": 463,
+   "duration_ms": 352,
    "message": null
   }
  },
@@ -619,19 +699,19 @@
   "layer": "bronze",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago",
-   "reconciled green at a38dcf85-8687-4204-a19e-c52ecad71a33"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago",
+   "reconciled green at manual-1792600489"
   ],
   "cause": null,
-  "last_success_at": 1792594875,
+  "last_success_at": 1792600384,
   "last_run": {
    "table": "public.store",
    "layer": "bronze",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594875,
+   "at": 1792600384,
    "rows": 500,
-   "duration_ms": 337,
+   "duration_ms": 288,
    "message": null
   }
  },
@@ -640,18 +720,18 @@
   "layer": "silver",
   "state": "healthy",
   "evidence": [
-   "last run a38dcf85-8687-4204-a19e-c52ecad71a33 ok 30 min ago"
+   "last run 8fd84c6c-ba08-408f-9b39-9776f21125e8 ok 2 min ago"
   ],
   "cause": null,
-  "last_success_at": 1792594902,
+  "last_success_at": 1792600413,
   "last_run": {
    "table": "public.store",
    "layer": "silver",
-   "run_id": "a38dcf85-8687-4204-a19e-c52ecad71a33",
+   "run_id": "8fd84c6c-ba08-408f-9b39-9776f21125e8",
    "ok": true,
-   "at": 1792594902,
+   "at": 1792600413,
    "rows": 500,
-   "duration_ms": 373,
+   "duration_ms": 363,
    "message": null
   }
  }

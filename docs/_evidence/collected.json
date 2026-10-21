@@ -1,12 +1,12 @@
 {
- "collected_at": "2026-10-21 15:32 UTC",
- "head": "efeeffd",
+ "collected_at": "2026-10-21 16:35 UTC",
+ "head": "c86ac88",
  "report": {
   "status": "ok",
   "tables": "ok",
   "proposals": "ok",
-  "check": "ok",
-  "reconcile": "ok",
+  "check": "ok (exit 1)",
+  "run_results.json": "copied",
   "manifest.json": "copied"
  }
 }
